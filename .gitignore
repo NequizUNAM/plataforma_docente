@@ -1,0 +1,15 @@
+#Librerias o modulos para omitir
+/node_modules
+vendor/
+/.idea
+*.log
+/src/API/Seeder/
+**/assets/files/
+**/seeder/
+
+#Para modulos Node
+package-lock.json
+src/package-lock.json
+
+composer.lock
+package-lock.json
