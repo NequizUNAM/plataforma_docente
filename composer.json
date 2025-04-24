@@ -1,0 +1,22 @@
+{
+    "name":"nequiztfca-ux/docencia",
+    "description":"sistema docente - plataforma",
+    "authors": [
+        {
+            "name":"Pedro Medina",
+            "role":"developer"
+        }
+    ],
+    "require": {
+        "php":">=5.3.3",
+        "dompdf/dompdf": "^2.0.2",
+        "fortawesome/font-awesome": "^6.4",
+        "fakerphp/faker": "^1.23",
+        "phpoffice/phpspreadsheet": "^2.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "src\\":"src/"
+        }
+    }
+}
